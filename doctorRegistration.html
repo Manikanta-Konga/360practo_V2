@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>DoctorRegistration</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h3 style="color: blue;">360 DIGRII INSTITUTE</h3>
+            <nav style="color: blue" id="links" name="headerLinks">
+                <u><a href="index.html">Home</a></u> |
+                <u><a href="doctor.html">Doctor </a></u> |
+                <u><a href="about.html">Feedback</a></u> |
+                <u><a href="patientRegistration.html">PatientRegistration</a></u> |
+                <u><a href="#">DoctorRegistration</a></u> |
+                <u><a href="patientLogin.html">PatientLogin</a></u> |
+                <u><a href="doctorLogin.html">DoctorLogin</a></u>
+
+            </nav>
+        </center>
+    </header>
+    <hr>
+    <main>
+        <form>
+            <center>
+                <h2>Doctor Registration Form</h2>
+            </center>
+            <center>
+                <table cellspacing= "10">
+                    <tr>
+                        <td>
+                            <label>Name: </label>
+                            <input type="text" id="name" name="nameField" placeholder="Enter Name">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Password: </label>
+                            <input type="password" id="password" name="passwordField" placeholder="Enter Password">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Email: </label>
+                            <input type="email" id="email" name="emailField" placeholder="Enter Email">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Phone Number: </label>
+                            <input type="number" id="phoneNp" name="phoneNoField" placeholder="Enter Phone Number">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Specialization: </label>
+                            <select name="Specialization">
+                                <option value="Cardiologist">Cardiologist</option>
+                                <option value="Dermatologist">Dermatologist</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Experience(Years): </label>
+                            <input type="number" id="experience" name="experienceField" placeholder="Enter Experience">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Gender</label>
+                            <input type="radio" id="gender" name="genderField" value="Male"> Male
+                            <input type="radio" id="gender" name="genderField" value="Female"> Female
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Available Days: </label>
+                            <input type="checkbox" id="availDay" name="availDayField" value="Monday"> Monday
+                            <input type="checkbox" id="availDay" name="availDayField" value="Tuesday"> Tuesday
+                            <input type="checkbox" id="availDay" name="availDayField" value="Wednesday"> Wednesday
+                            <input type="checkbox" id="availDay" name="availDayField" value="Thursday"> Thursday
+                            <input type="checkbox" id="availDay" name="availDayField" value="Friday"> Friday
+                            <input type="checkbox" id="availDay" name="availDayField" value="Saturday"> Saturday
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Available Time: </label>
+                            <input type="time" id="availTime" name="availTimeField">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Address:-</label> <br>
+                            <textarea rows="5" cols="30" id="address" name="addressField"
+                                placeholder="Enter your Address"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Upload Certificate: </label>
+                            <input type="file" id="file" name="fileField">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <center>
+                                <input type="submit" id="submit" name="submitButton">
+                                <input type="reset" id="reset" name="resetButton">
+                            </center>
+                        </td>
+                    </tr>
+
+                </table>
+            </center>
+        </form>
+
+    </main>
+    <hr>
+    <footer>
+        <center>
+            <p style="color: blue;">copyright@Mani</p>
+        </center>
+
+    </footer>
+
+</body>
+
+</html>
